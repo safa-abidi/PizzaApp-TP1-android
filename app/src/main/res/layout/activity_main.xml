@@ -24,7 +24,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp" />
-
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -37,7 +36,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp" />
-
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -51,11 +49,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:lines="2" />
-
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:id="@+id/typeText"
+            android:id="@+id/typePizza"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#000000"
@@ -85,7 +82,7 @@
         </RadioGroup>
 
         <TextView
-            android:id="@+id/ing"
+            android:id="@+id/ingText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#000000"
@@ -93,15 +90,18 @@
             android:text="Ingrédients" />
 
         <CheckBox
+            android:id="@+id/fromage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="Fromage"/>
         <CheckBox
+            android:id="@+id/champignon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Champignon"/>
         <CheckBox
+            android:id="@+id/saucisson"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Saucisson"/>
