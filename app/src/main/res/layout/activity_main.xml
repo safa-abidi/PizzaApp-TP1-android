@@ -15,36 +15,39 @@
         tools:layout_editor_absoluteY="1dp">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/nom"
+            android:id="@+id/nomTextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Nom">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/prenom"
+            android:id="@+id/prenomTextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Prenom">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/prenom"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/adresse"
+            android:id="@+id/adresseTextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Adresse">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/adresse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
@@ -111,6 +114,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Passer la commande"
+            android:onClick="commander"
             />
 
     </LinearLayout>
